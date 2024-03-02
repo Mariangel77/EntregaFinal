@@ -310,6 +310,24 @@ header nav {
     padding: 20px;
   }
 }
+.flex-bebida1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.flex-bebida2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.bebida3 {
+  margin-left: 11%;
+}
+
 header nav {
   margin-top: 0%;
   margin-right: 8%;

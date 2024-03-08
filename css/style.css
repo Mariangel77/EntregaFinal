@@ -24,6 +24,14 @@ header nav {
   margin-bottom: 3%;
 }
 
+.nav-color {
+  background-color: white;
+}
+
+.iframe {
+  margin-left: 8%;
+}
+
 footer {
   display: inline;
   text-align: center;
@@ -141,6 +149,7 @@ header nav {
   display: flex;
   flex-direction: row;
   background-color: #e281a9;
+  margin-top: 3%;
 }
 .flex-home1 .flex-alineacion {
   display: flex;
@@ -246,7 +255,7 @@ header nav {
     margin-left: 20%;
   }
   .revisa-parrafo {
-    color: #066540;
+    color: #224037;
     margin-left: 20%;
   }
 }
@@ -281,6 +290,38 @@ header nav {
   padding: 20px;
 }
 
+.flex-bebida1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.flex-bebida2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.bebida3 {
+  margin-left: 12%;
+}
+
+.flex-comida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.flex-encasa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
 @media (min-width: 200px) and (max-width: 800px) {
   .body-menu .disdrutalos {
     font-size: 20px;
@@ -309,25 +350,34 @@ header nav {
     border-top: 1px solid black;
     padding: 20px;
   }
+  .flex-bebida1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .flex-bebida2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .bebida3 {
+    margin-left: 7%;
+  }
+  .flex-comida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .flex-encasa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+  }
 }
-.flex-bebida1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-left: 5%;
-}
-
-.flex-bebida2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-left: 5%;
-}
-
-.bebida3 {
-  margin-left: 11%;
-}
-
 header nav {
   margin-top: 0%;
   margin-right: 8%;
@@ -345,7 +395,7 @@ header nav {
   font-size: 350%;
   font-weight: bolder;
   color: white;
-  background-color: #066540;
+  background-color: #224037;
   text-align: center;
   padding: 70px;
 }
@@ -386,7 +436,7 @@ header nav {
   font-size: 350%;
   font-weight: bolder;
   color: white;
-  background-color: #066540;
+  background-color: #224037;
   text-align: center;
   padding: 40px;
 }
@@ -499,7 +549,7 @@ header nav {
   font-size: 350%;
   font-weight: bolder;
   color: white;
-  background-color: #066540;
+  background-color: #224037;
   text-align: center;
   padding: 40px;
   margin-bottom: 5%;
